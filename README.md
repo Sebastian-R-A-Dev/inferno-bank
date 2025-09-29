@@ -183,7 +183,9 @@ the app
 SQS(notification-email-sqs)
 Send email notification, It can handle the next notifications:
 The template must be storage in S3 Bucket and get as demand the lambda need it
+
 • WELCOME:
+
 ◦ Send email when user register inside the app
 • USER.LOGIN
 ◦ Send email when user login the app, each login send email
